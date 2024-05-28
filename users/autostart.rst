@@ -374,7 +374,7 @@ go back to step #2 only if enabling the service failed.
 How to set up a system service
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Create the user who should run the service, or choose an existing one.
+#. Create the user who should run the service, or choose an existing one. This user must have a home directory.
 #. (Skip if your distribution package already installs these files, see above.)
    From `git location <https://github.com/syncthing/syncthing/raw/main/etc/linux-systemd/system/>`__ copy the ``syncthing@.service`` file into the
    `load path of the system instance
